@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<conio.h>
+
+int fact(int n){ 
+	 if (n == 0) {
+	 volver 1; 
+	 }más {
+	 return n * fact(n - 1); 
+	 }
+}
+int main(){
+	int n;
+	printf("ingrese un numero");
+	scanf("%i",&n);
+	printf("el factorial de %i es : %i",n,fact(n));
+	volver 0;
+}
